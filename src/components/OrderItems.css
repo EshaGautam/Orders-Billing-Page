@@ -1,0 +1,30 @@
+
+.order-items {
+  margin: 20px;
+}
+
+.order-ul {
+  list-style: none;
+  padding: 0;
+}
+
+.order-ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-color: rgb(126, 72, 126);
+  color: thistle;
+}
+
+.order-ul li span {
+  flex: 1;
+}
+
+.order-ul li span:last-child {
+  margin-left: 10px;
+}

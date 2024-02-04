@@ -1,0 +1,12 @@
+.form-style{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+    font-weight: bold;
+}
+
+.form-style select{
+    width:10%;
+    margin-left:5px;
+
+}
