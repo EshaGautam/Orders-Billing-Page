@@ -75,13 +75,15 @@ const OrdersForm = (props) => {
         value={orderPrice}
       />
 
-      <label>Select-Table:</label>
-      <select onChange={handleSelectedTable} value={selectedTable}>
-        <option value="">Select</option>
-        <option value="table-1">Tabel-1</option>
-        <option value="table-2">Tabel-2</option>
-        <option value="table-3">Tabel-3</option>
-      </select>
+      <div className="dropDown">
+        <label>Select-Table:</label>
+        <select onChange={handleSelectedTable} value={selectedTable}>
+          <option value="">Select</option>
+          <option value="table-1">Tabel-1</option>
+          <option value="table-2">Tabel-2</option>
+          <option value="table-3">Tabel-3</option>
+        </select>
+      </div>
 
       <Button type="submit">Add-Bill</Button>
     </form>

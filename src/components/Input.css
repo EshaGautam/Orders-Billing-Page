@@ -1,7 +1,27 @@
 .form-input{
-    margin-right:10px;
-    font-weight: bold;
+  display: flex;
+ font-weight: bold;
+justify-content: space-around;
+gap: 2px;
 }
 .form-input input{
     margin-left:10px;
 }
+input:hover {
+  border: 1px solid  rgb(29, 6, 29);
+}
+@media screen and (max-width: 746px) {
+    .form-input{
+    display: flex;
+    margin-right:10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.form-input input{
+    margin-left: 10px;
+   display: flex;
+
+}
+
+}
+

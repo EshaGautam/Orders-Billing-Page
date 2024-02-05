@@ -14,7 +14,6 @@
   align-items: center;
   padding: 10px;
   border: 1px solid #ccc;
-  margin-bottom: 10px;
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   background-color: rgb(126, 72, 126);
@@ -22,9 +21,48 @@
 }
 
 .order-ul li span {
-  flex: 1;
+    flex: 1;
+    box-sizing: border-box;
 }
 
 .order-ul li span:last-child {
   margin-left: 10px;
+}
+@media screen and (max-width: 746px) {
+
+
+.order-ul {
+  list-style: none;
+  display: contents;
+  display: flex;
+  margin-left: 50px;
+}
+
+.order-ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap:wrap;
+  flex-grow: inherit;
+  flex-flow: column;
+  flex-shrink: inherit;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-color: rgb(126, 72, 126);
+  color: thistle;
+  margin: 0;
+
+}
+
+
+.order-ul li span:last-child {
+
+   margin-bottom: 2px;
+   margin-top: 10px;
+   padding-right: 25%;
+}
+
+
 }

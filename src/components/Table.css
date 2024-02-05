@@ -3,14 +3,14 @@
   display: flex;
   justify-content: space-between;
   margin: 20px;
-  margin-top: 5%;
+  margin-top: 1%;
+
 }
 
 .table > div {
   flex: 1;
   margin: 0 10px;
   padding: 15px;
-
   border-radius: 5px;
 }
 
@@ -21,3 +21,26 @@
   
 }
 
+@media screen and (max-width: 746px) {
+  .table {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+
+
+}
+
+.table h1 {
+  font-size: 1.5em;
+  margin-left:35%;
+
+}
+
+.table > div {
+  border-radius: 5px;
+  margin-top: 0;
+}
+
+
+
+}

@@ -9,11 +9,20 @@ button {
   cursor: pointer;
   transition: background-color 0.3s;
   color: black;
-  margin-left: 5px;
+  margin-left: 10px;
 
 }
 
 button:hover {
   background-color:thistle;
   border: 1px solid  rgb(126, 72, 126);
+}
+
+
+@media screen and (max-width: 746px) {
+
+  button{
+    margin-top: 10px;
+  }
+
 }

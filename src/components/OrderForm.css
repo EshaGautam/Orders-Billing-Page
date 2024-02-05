@@ -1,12 +1,53 @@
 .form-style{
   display: flex;
-  justify-content: center;
-  margin-top: 70px;
-    font-weight: bold;
+  justify-content:center;
+  align-items: center;
+  margin-top: 50px;
+  font-weight: bold;
+  flex-wrap: wrap;
+  width: 90vw;
+ margin-left: 50px;
+background-color: rgb(126, 72, 126);
+ color: white;
+padding: 50px 20px 50px 20px;
+border-radius: 50px;
+
+ 
 }
 
-.form-style select{
-    width:10%;
-    margin-left:5px;
+ .dropDown{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap ;
+
+}
+
+.dropDown select{
+   flex:2;
+   margin-left:10px;
+   width:120px;
+}
+
+@media screen and (max-width: 746px) {
+  .form-style{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     padding: 10px;
+     width: 60%;
+     margin-left: 20%;
+     margin-top: 0%;
+     background-color: rgb(126, 72, 126);
+     color: thistle;
+     border-radius: 10px;
+    box-shadow: 0 0 5px rgba(87, 11, 77, 0.1);
+    
+  }
+  .dropDown{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap ;
+  margin-right: 10%;
+}
 
 }
